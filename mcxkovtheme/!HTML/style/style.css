@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mukta:wght@300&display=swap');
+
+.orange {
+    background-color: orange;
+    color: black;
+}
+.footer {
+    background-color: #4B4F60;
+}
+a {
+    text-decoration: none;
+    font-size: 14px;
+}
+ul.unmarked {
+    list-style-type: none;
+}
+.ftext {
+    color:whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14;
+}
+.fcon {
+    margin: 10px;
+    padding: 10px;
+}
+h3 {
+    font-family: 'Mukta', sans-serif;
+}
+.nigga {
+    width: 100%;
+    height: 1000px;
+    background-color: #fff;
+}
+.navbarfix{
+    position: fixed;
+    z-index: 2;
+}
+.vidstyp83{
+    height: 83px;
+}
+.color-yellow{
+    background-color: #FF8A00;
+}
+.color-black-text{
+    color: black;
+    font-weight: bold;
+}
+.frtext a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.color-gray-bg{
+    background-color: #B7B7B7;
+}
+.color-white-bg{
+    background-color: white;
+}
+.znayty{
+    height: 100px;
+}
+.znayty2{
+    margin: 10px;
+}
+.borderznaity{
+    border-width: 2px;
+    border-style: solid;
+}
+.centertext{
+    padding: 15px 15px 15px 20px;
+    display: flex;
+}
+.imgcalendar{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.textlight{
+    font-weight: lighter;
+}
+.buttonznaity{
+    background-color: orange;
+}
+.whitebold{
+    color: white;
+    font-weight: bolder;
+}
+.centertext1{
+    padding: 15px 15px 15px 20px;
+    display: flex;
+}
+.color-silver-bg{
+    background-color: silver;
+}
+.navbarshadow{
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+}
+.nobg{
+    background-color: transparent;
+}
+.nomarker{
+    list-style-type: none;
+}
+.krayina{
+    color: blue;
+}
+.padfortext{
+    padding-left: 5px;
+}
+.vyizd{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+}
+.padup{
+    padding-top: 25px;
+}
+.imghuman{
+    padding-top: 10px;
+    height: 40px;
+    width: 40px;
+}
+.custom-radio {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .custom-radio input {
+    display: none;
+  }
+  
+  .custom-radio label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+  }
+  
+  .custom-radio label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #999;
+    border-radius: 50%;
+  }
+  
+  .custom-radio input:checked + label:before {
+    background: #3399ff; /* Change color when checked */
+  }
+  
+  /* Optional: Styles to indicate selection */
+  .custom-radio input:checked + label:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: white;
+  }
+.padleft{
+    padding-left: 10px;
+}  
+
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+
+.w-841px{
+    width: 841px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mukta:wght@300&display=swap');
+
+.orange {
+    background-color: orange;
+    color: black;
+}
+.footer {
+    background-color: #4B4F60;
+}
+a {
+    text-decoration: none;
+    font-size: 14px;
+}
+ul.unmarked {
+    list-style-type: none;
+}
+.ftext {
+    color:whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14;
+}
+.fcon {
+    margin: 10px;
+    padding: 10px;
+}
+h3 {
+    font-family: 'Mukta', sans-serif;
+}
+.nigga {
+    width: 100%;
+    background-color: #fff;
+}
+
+.header {
+    height: 100px;
+}
+header {
+    z-index: 2;
+}
+.HUI {
+    z-index: 1;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mukta:wght@300&display=swap');
+
+.orange {
+    background-color: orange;
+    color: black;
+}
+.footer {
+    background-color: #4B4F60;
+}
+a {
+    text-decoration: none;
+  color:#9CA4B2;
+    font-size: 14px;
+}
+ul.unmarked {
+    list-style-type: none;
+}
+.ftext {
+    color:whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14;
+}
+.fcon {
+    margin: 10px;
+    padding: 10px;
+}
+h3 {
+    font-family: 'Mukta', sans-serif;
+}
+.nigga {
+    width: 100%;
+    height: 1000px;
+    background-color: #fff;
+}
+.col {
+background-color: #EFEFEF;
+}
+
+.top-index{
+    z-index: 1;
+}
+.top-82{
+    margin-top: 15px;
+}
+
+.nigga3{
+    border: 0.5px solid rgba(0, 0, 0, 0.04);
+    background: rgba(217, 217, 217, 0.00);
+}
+.img-shadow{
+    box-shadow: 1px 1px 20px  rgba(0, 0, 0, .2);
+}
+.photki{
+width: 185px;
+height: 81px;
+flex-shrink: 0;
+}
+.vidstup{
+    padding-left: 10px;
+}
+.vidstup2{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.bugaga{
+    margin-bottom: 70px;
+}
+.tour-number {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+.tekstso{
+    color: black;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.ellipse {
+    width: 40px;
+    height: 40px;
+    background-color: #9CA4B2;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.ellipse img {
+    width: 30px;
+    height: 28px;
+
+    
+
+  }
+  .tekstbox{
+    width: 136px;
+    height: 74px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;    
+    margin-left: 70px;
+    padding-top: 20px;
+
+  }
+  .frtext a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+.perelit{
+    color: black;
+font-size: 16px;
+font-family: Inter;
+font-weight: 600;
+word-wrap: break-word
+}
+.tyda{
+    display: flex;
+    flex: 1 1;
+    margin-left: 15px;
+}
+.tydamini1{
+    color: black; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 600;
+    word-wrap: break-word"
+    
+}
+.tydamini2{
+    color: black; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 400;
+    word-wrap: break-word
+}
+.tydamini3{
+    color: black;
+    font-size: 16px; 
+    font-family: Inter;
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.plus{
+    color: #A9A9A9;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+    margin-right: 20px;
+   
+    
+}
+.plus2{
+    color: #A9A9A9;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+.tydatyda{
+    margin-left: 25px;
+}
+.boba{
+    margin-left: 25px;
+}
+.ol{
+margin-bottom: -16px;
+
+}
